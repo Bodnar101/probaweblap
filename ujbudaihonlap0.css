@@ -25,7 +25,7 @@ header{
 }
 
 header {
-    transition: opacity 0.3s ease, transform 0.5s ease-in-out;
+    transition: opacity 0.5s ease, transform 0.8s ease-in;
     height: auto;
 }
 
@@ -35,6 +35,14 @@ header.hidden {
     padding: 0;
     height: 0;
     transform: translateY(-100%); /* Elrejti a fejlécet felfelé */
+    transition: 1.5s;
+}
+header.hidden img{
+    opacity: 0;
+    padding: 0;
+    height: 0;
+    transform: translateY(-100%); /* Elrejti a fejlécet felfelé */
+    transition: 1s;
 }
 
 header span{
